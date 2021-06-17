@@ -5,16 +5,29 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+   
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
+    rel="stylesheet"
+  />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,6 +40,21 @@
     <title>React App</title>
   </head>
   <body>
+    <form id="xyz">
+      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HMcGxhg263fol2" async> </script>
+  </form>
+  <style>
+    #xyz{
+      text-align: center;
+      position: absolute;
+      top: 81%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    
+  
+    }
+  </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
